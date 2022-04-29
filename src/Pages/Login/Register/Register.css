@@ -4,11 +4,12 @@
     padding-top: 30px;
 }
 
-.register-form input {
+.register-form input:not([type=checkbox]) {
     width: 100%;
-    height: 70%;
+    height: 50%;
     font-size: 18px;
+    border: 1px solid lightgrey;
     margin-bottom: 15px;
     padding-left: 10px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
